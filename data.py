@@ -45,7 +45,29 @@ pork = {
   "category": "protein",
 }
 
+
 # This category is the carbohydrates options
+
+bread = {
+     "calories": 1000,
+    "category": "protein",
+}
+rice = {
+     "calories": 1000,
+    "category": "protein",
+}
+potatoes = {
+     "calories": 1000,
+    "category": "protein",
+}
+ = {
+     "calories": 1000,
+    "category": "protein",
+}
+ = {
+     "calories": 1000,
+    "category": "protein",
+}
 
 
 
