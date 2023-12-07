@@ -5,74 +5,70 @@
 # This category is the protein options
 
 salmon = {
-     "calories": 1000,
+     "calories": 1200,
     "category": "protein",
 }
 chicken = {
-  "calories": 900,
-  "category": "protein", 
-}
-milk = {
-  "calories": 250,
+  "calories": 1500,
   "category": "protein", 
 }
 turkey = {
-  "calories": 171,
-  "category": "protein",
-}
-blackbeans = {
-  "calories": 341,
+  "calories": 1000,
   "category": "protein",
 }
 beef = {
-  "calories": 902,
-  "category": "protein",
-}
-tuna = {
-  "calories": 144,
-  "category": "protein",
-}
-almonds = {
-  "calories": 579,
-  "category": "protein",
-}
-broccoli = {
-  "calories": 62,
+  "calories": 2500,
   "category": "protein",
 }
 pork = {
-  "calories": 124,
+  "calories": 900,
   "category": "protein",
 }
 
-
 # This category is the carbohydrates options
-
 bread = {
      "calories": 1000,
-    "category": "protein",
+    "category": "carbohydrate",
 }
 rice = {
-     "calories": 1000,
-    "category": "protein",
-}
+     "calories": 400,
+    "category": "carbohydrate",
+},
 potatoes = {
+     "calories": 600,
+    "category": "carbohydrate",
+},
+beans= {
+     "calories": 600,
+    "category": "carbohydrate",
+},
+pasta = {
+     "calories": 2000,
+    "category": "carbohydrate",
+},
+
+# This category contains the data for the vegetable options 
+
+carrot = {
      "calories": 1000,
-    "category": "protein",
+    "category": "vegetable",
 }
- = {
-     "calories": 1000,
-    "category": "protein",
-}
- = {
-     "calories": 1000,
-    "category": "protein",
-}
-
-
-
-# This category is the vegetable options 
-
+cucumber= {
+     "calories": 700,
+    "category": "vegetable",
+},
+peas = {
+     "calories": 250,
+    "category": "vegetable",
+},
+greenbeans = {
+     "calories": 300,
+    "category": "vegetable",
+},
+corn = {
+     "calories": 800,
+    "category": "vegetable",
+},
 
 
 
