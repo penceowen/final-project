@@ -7,8 +7,13 @@
 Goals:
 Create a data structer with categories
 Create 4 categories
-Have each category contain 10 food options
+Have each category contain 5 food options
 Include the amount of calories in each food option
-Generate a balanced, healthy meal for someone based on the desired amount of calories
+Generate a healthy meal for someone that contains one food from each category
 '''
- 
+import pandas
+
+df = pandas.read_csv("data.csv")
+
+print(df)
+
