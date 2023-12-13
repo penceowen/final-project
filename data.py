@@ -4,75 +4,12 @@
 
 # This category is the protein options
 
-thisdict0 = {
-    "food": "salmon",
-    "category": "protein",
-    "calories": "1200"
-}
-chicken = {
-  "calories": "1500",
-  "category": "protein", 
-}
-turkey = {
-  "calories": 1000,
-  "category": "protein",
-}
-beef = {
-  "calories": 2500,
-  "category": "protein",
-}
-pork = {
-  "calories": 900,
-  "category": "protein",
-}
 # This category is the carbohydrates options
 
-bread = {
-     "calories": 1000,
-    "category": "carbohydrate",
-}
-rice = {
-     "calories": 400,
-    "category": "carbohydrate",
-},
-potatoes = {
-     "calories": 600,
-    "category": "carbohydrate",
-},
-beans= {
-     "calories": 600,
-    "category": "carbohydrate",
-},
-pasta = {
-     "calories": 2000,
-    "category": "carbohydrate",
-},
 # This category contains the data for the vegetable options 
 
-carrot = {
-     "calories": 1000,
-    "category": "vegetable",
-}
-cucumber= {
-     "calories": 700,
-    "category": "vegetable",
-},
-peas = {
-     "calories": 250,
-    "category": "vegetable",
-},
-greenbeans = {
-     "calories": 300,
-    "category": "vegetable",
-},
-corn = {
-     "calories": 800,
-    "category": "vegetable",
-},
-
-
 from random import randint
-# This date contains the 5 protein foods with their calories
+# This list contains the 5 protein foods with their calories
 thisdict0 = {
   "category": "proteins",
   "food": "salmon",
@@ -99,53 +36,88 @@ thisdict4 = {
   "calories": 2022
 }
 
+# This list contains the 5 protein foods with their calories
 thisdict5 = {
   "category": "carbohydrates",
   "food": "bread",
-  "calories": 1964
+  "calories": 1000
 }
 thisdict6 = {
-  "category": "proteins",
-  "model": "chicken",
-  "calories": 2019
+  "category": "carbohydrates",
+  "model": "rice",
+  "calories": 400
 }
 thisdict7 = {
-  "category": "proteins",
-  "model": "turkey",
-  "calories": 2018
+  "category": "carbohydrates",
+  "model": "potatoes",
+  "calories": 600 
 }
 thisdict8 = {
-  "category": "proteins",
-  "model": "beef",
-  "calories": 2022
+  "category": "carbohydrates",
+  "model": "beans",
+  "calories": 600
 }
 thisdict9 = {
-  "category": "proteins",
-  "model": "pork",
-  "calories": 2022
+  "category": "carbohydrates",
+  "model": "pasta",
+  "calories": 2000
 }
 
-
-
-
-
-
-
-
-
-
+# This list contains the 5 vegetable options listed in their category with the amount of calories they contain
+thisdict10 = {
+  "category": "vegetables",
+  "food": "carrot",
+  "calories": 1000
+}
+thisdict11 = {
+  "category": "vegetables",
+  "model": "cucumber",
+  "calories": 700
+}
+thisdict12 = {
+  "category": "vegetables",
+  "model": "peas",
+  "calories": 250 
+}
+thisdict13 = {
+  "category": "vegetables",
+  "model": "greenbeans",
+  "calories": 300
+}
+thisdict14= {
+  "category": "vegetabes",
+  "model": "corn",
+  "calories": 800
+}
 
 # creates list containers
 proteins = []
 vegetables = []
-carbs = []
+carbohydrates = []
 
 # this populates the lists with dictionaries
 proteins.append(thisdict0)
 proteins.append(thisdict1)
 proteins.append(thisdict2)
 proteins.append(thisdict3)
+proteins.append(thisdict4)
+
+carbohydrates.append(thisdict5)
+carbohydrates.append(thisdict6)
+carbohydrates.append(thisdict7)
+carbohydrates.append(thisdict8)
+carbohydrates.append(thisdict9)
+
+vegetables.append(thisdict10)
+vegetables.append(thisdict11)
+vegetables.append(thisdict12)
+vegetables.append(thisdict13)
+vegetables.append(thisdict14)
+
+
 
 # this random selects and prints
-print(proteins[randint(0,4)]carbohydrates[randint(5,9)])
+print(proteins[randint(0,4)])
+print(carbohydrates[randint(6,8)])
+print(vegetables[randint(10,14)])
 
