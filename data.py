@@ -8,6 +8,8 @@
 
 # This category contains the data for the vegetable options 
 
+
+
 from random import randint
 # This list contains the 5 protein foods with their calories
 thisdict0 = {
@@ -118,6 +120,5 @@ vegetables.append(thisdict14)
 
 # this random selects and prints
 print(proteins[randint(0,4)])
-print(carbohydrates[randint(6,8)])
-print(vegetables[randint(10,14)])
-
+print(carbohydrates[randint(0,4)])
+print(vegetables[randint(0,4)])
