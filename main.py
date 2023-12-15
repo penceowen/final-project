@@ -21,27 +21,27 @@ from random import randint
 thisdict0 = {
   "category": "proteins",
   "food": "salmon",
-  "calories": 1964
+  "calories": 1000
 }
 thisdict1 = {
   "category": "proteins",
   "model": "chicken",
-  "calories": 2019
+  "calories": 1500
 }
 thisdict2 = {
   "category": "proteins",
   "model": "turkey",
-  "calories": 2018
+  "calories": 1200
 }
 thisdict3 = {
   "category": "proteins",
   "model": "beef",
-  "calories": 2022
+  "calories": 1000
 }
 thisdict4 = {
   "category": "proteins",
   "model": "pork",
-  "calories": 2022
+  "calories": 2000
 }
 
 # This list contains the 5 carbohydrate foods with their calories
