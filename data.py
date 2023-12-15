@@ -1,16 +1,9 @@
 # This was created by: Owen Pence
-
-
-
-# This category is the protein options
-
-# This category is the carbohydrates options
-
-# This category contains the data for the vegetable options 
-
+# Sources: https://www.w3schools.com/python/python_dictionaries.asp
 
 
 from random import randint
+
 # This list contains the 5 protein foods with their calories
 thisdict0 = {
   "category": "proteins",
@@ -38,7 +31,7 @@ thisdict4 = {
   "calories": 2022
 }
 
-# This list contains the 5 protein foods with their calories
+# This list contains the 5 carbohydrate foods with their calories
 thisdict5 = {
   "category": "carbohydrates",
   "food": "bread",
@@ -65,7 +58,7 @@ thisdict9 = {
   "calories": 2000
 }
 
-# This list contains the 5 vegetable options listed in their category with the amount of calories they contain
+# This list contains the 5 vegetable foods with their calories
 thisdict10 = {
   "category": "vegetables",
   "food": "carrot",
@@ -92,33 +85,35 @@ thisdict14= {
   "calories": 800
 }
 
-# creates list containers
+# This creats the list containers
+# Source: Chris Cozort
 proteins = []
 vegetables = []
 carbohydrates = []
 
-# this populates the lists with dictionaries
+# This populates the lists with dictionaries for the proteins
 proteins.append(thisdict0)
 proteins.append(thisdict1)
 proteins.append(thisdict2)
 proteins.append(thisdict3)
 proteins.append(thisdict4)
 
+# This populates the lists with dictionaries for the carbohydrates
 carbohydrates.append(thisdict5)
 carbohydrates.append(thisdict6)
 carbohydrates.append(thisdict7)
 carbohydrates.append(thisdict8)
 carbohydrates.append(thisdict9)
 
+# This populates the lists with dictionaries for the vegetables
 vegetables.append(thisdict10)
 vegetables.append(thisdict11)
 vegetables.append(thisdict12)
 vegetables.append(thisdict13)
 vegetables.append(thisdict14)
 
-
-
-# this random selects and prints
+# This random selects and prints 1 option from each category - (protein, carbohydrates, vegetables)
+# Source: Sanchet Arghawal
 print(proteins[randint(0,4)])
 print(carbohydrates[randint(0,4)])
 print(vegetables[randint(0,4)])
